@@ -1,0 +1,10 @@
+package BusResv;
+import java.util.*;
+
+public class Booking {
+String passenger_name;
+int bus_no;
+Date date;
+
+
+}

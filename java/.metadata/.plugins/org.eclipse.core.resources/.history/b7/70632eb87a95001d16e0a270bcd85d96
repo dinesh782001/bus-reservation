@@ -1,0 +1,9 @@
+package BusResv;
+
+public class Bus {
+
+	
+	int bus_no;
+	boolean ac;
+	int capacity;
+}

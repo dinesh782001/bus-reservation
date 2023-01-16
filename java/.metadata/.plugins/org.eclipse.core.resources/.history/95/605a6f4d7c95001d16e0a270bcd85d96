@@ -1,0 +1,26 @@
+package BusResv;
+
+public class Bus {
+
+	
+	 private int bus_no;
+	 private boolean ac;
+	 private int capacity;
+	Bus(int no,boolean ac,int cap){
+		this.bus_no=no;
+		this.ac=ac;
+		this.capacity=cap;
+		
+		
+	}
+	public int getCapacity(){
+		return capacity;
+	}
+	public void setCapacity(int cap) {
+		capacity=cap;
+	}
+	
+	
+	
+	
+}
